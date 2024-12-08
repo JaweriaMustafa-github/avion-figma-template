@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div>
          <div className="w-full h-[355px] bg-white mt-32">
-        <h3 className="w-[366px] h-[34px] font-sans text-2xl text-[#2A254B] bg-white mt-4 mb-10 ml-[36rem] mr-[36rem]">What makes our brand different</h3>
+        <h3 className="w-[366px] h-[34px] font-sans text-2xl text-[#2A254B] bg-white mt-4 mb-10 ml-[36rem] mr-5">What makes our brand different</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center justify-center gap-7 pl-20 pr-20">
           <div className="w-[270Hug] h-[124Hug] items-start gap-y-4 ">
             <span className='h-[40Hug] w-[270Hug] '><Image src="/icons/Delivery.png" alt="Delivery" width={24} height={24} className="w-auto h-full text-[#2A254B] bg-white"/></span>

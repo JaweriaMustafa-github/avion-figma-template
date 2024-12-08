@@ -29,14 +29,14 @@ const Ceramics = () => {
             {/* Product 2 */}
             <div className="w-full h-auto">
               <Image
-                src={'/images/three-vases.png'}
+                src={'/images/vase.png'}
                 height={700}
                 width={700}
                 alt="vase"
                 className="w-full h-[80%] object-cover transition-transform duration-300 ease-in-out hover:scale-105 hover:translate-y-1"
               />
               <div className="mt-4 text-[#2A254B]">
-                <p className="py-2">The Silky Vase</p>
+                <p className="py-2">Rustic Vaseset</p>
                 <p>$155</p>
               </div>
             </div>
@@ -44,14 +44,14 @@ const Ceramics = () => {
             {/* Product 3 */}
             <div className="w-full h-auto">
               <Image
-                src={'/images/vase.png'}
+                src={'/images/silky.png'}
                 height={700}
                 width={700}
                 alt="silky vase"
                 className="w-full h-[80%] object-cover transition-transform duration-300 ease-in-out hover:scale-105 hover:translate-y-1"
               />
               <div className="mt-4 text-[#2A254B]">
-                <p className="py-2">Rustic Vaseset</p>
+                <p className="py-2">The Silky Vase</p>
                 <p>$125</p>
               </div>
             </div>

@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import Main from "@/components/Main";
-import Ceramics from "@/components/ceramics";
+import Ceramics from "@/components/Ceramics";
 import Product from "@/components/Product";
 import Benefit from "@/components/Benefit";
 import Touch from "@/components/Touch";

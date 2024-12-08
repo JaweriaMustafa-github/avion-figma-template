@@ -22,7 +22,7 @@ const Product = () => {
             {/* Product 1 */}
             <div className='w-full md:w-[700px] h-auto group'>
               <Image
-                src={'/images/Large.png'}
+                src={'/images/Large.jpg'}
                 height={800}
                 width={800}
                 alt='sofa'
@@ -52,7 +52,7 @@ const Product = () => {
             {/* Product 3 */}
             <div className='w-full md:w-[350px] h-auto group'>
               <Image
-                src={'/images/chair1.png'}
+                src={'/images/chair2.png'}
                 height={900}
                 width={900}
                 alt='chair'
