@@ -1,9 +1,11 @@
 import React from "react";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative bg-neutral-100 w-full h-[704px] flex items-center justify-center">
+    <section className="relative bg-neutral-100 w-full h-[704px] flex items-center justify-center px-4 md:px-8">
+      <div>
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
@@ -13,18 +15,21 @@ const Hero: React.FC = () => {
       ></div>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-white bg-opacity-0"></div>
+      <div className="absolute inset-0 bg-white bg-opacity-20 md:bg-opacity-0"></div>
 
       {/* Content */}
-      <div className="relative bg-white p-8 shadow-lg w-[630px] h-[444px] ml-[500px]">
-        <h2 className="text-3xl font-normal w-[513px] h-[90Hug] text-[#22202E] mb-4">
+      <div className="relative bg-white p-6 shadow-lg w-full max-w-md md:max-w-lg lg:w-[630px] lg:h-[444px] lg:ml-[500px]">
+        <h2 className="text-xl md:text-2xl lg:text-3xl font-normal text-[#22202E] mb-4">
           Luxury homeware for people who love timeless design quality
         </h2>
-        <p className="text-[#5B5676] mb-6">
+        <p className="text-sm md:text-base text-[#5B5676] mb-6 hidden">
           Shop the new Spring 2022 collection today
         </p>
-        <Button variant="secondary" className="w-[170Hug] h-[56Hug] gap-y-[10px] px-[32px] py-[16px] text-[#2A254B] mt-44">View Collection</Button>
+        <p className="text-sm md:text-base text-[#5B5676] mb-6">With our new collection, view over 400 bespoke pieces from homeware through to furniture today</p>
+        <Button variant="secondary" className="w-full md:w-auto h-[56Hug] gap-y-[10px] text-sm md:text-base px-6 py-3 text-[#2A254B] mt-4 md:mt-44">View Collection</Button>
       </div>
+      </div>
+      
     </section>
   );
 };

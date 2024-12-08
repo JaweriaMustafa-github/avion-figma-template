@@ -1,16 +1,23 @@
-import React from 'react'
-import Header from '../components/layout/Header'
-import Footer from '../components/layout/Footer'
-import Hero from '../components/Hero'
+import Hero from "@/components/Hero";
+import Main from "@/components/Main";
+import Ceramics from "@/components/ceramics";
+import Product from "@/components/Product";
+import Benefit from "@/components/Benefit";
+import Touch from "@/components/Touch";
+import ProductListing from "./productlisting/page";
 
-const page = () => {
+
+
+export default function Home() {
   return (
-    <div>
-      <Header/>
-      <Footer/>
-      <Hero/>
-    </div>
-  )
+   <>
+   <Hero/>
+   <Main/>
+   <Ceramics />
+   <Product />
+   <Benefit />
+   <Touch />
+<ProductListing/>
+   </>
+  );
 }
-
-export default page;
