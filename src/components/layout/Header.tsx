@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 import { Sheet, SheetContent, SheetTrigger } from '../ui/sheet'
 import { Menu } from 'lucide-react'
