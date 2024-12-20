@@ -33,25 +33,25 @@ const Header: React.FC = () => {
       {/* Navigation Bar */}
       <nav className="w-full bg-white border-t hidden md:flex space-x-6">
         <div className="container mx-auto px-4 py-2 flex justify-center space-x-6">
-        <a href="#" className="text-gray-700 hover:underline">
+        <a href="/" className="text-gray-700 hover:underline">
           Plant pots
           </a>
-          <a href="#" className="text-gray-700 hover:underline">
+          <a href="/" className="text-gray-700 hover:underline">
           Ceramics
           </a> 
-          <a href="#" className="text-gray-700 hover:underline">
+          <a href="/" className="text-gray-700 hover:underline">
           Tables
           </a> 
-          <a href="#" className="text-gray-700 hover:underline">
+          <a href="/" className="text-gray-700 hover:underline">
           Chairs
           </a>
-          <a href="#" className="text-gray-700 hover:underline">
+          <a href="/" className="text-gray-700 hover:underline">
           Crockery
           </a>
-          <a href="#" className="text-gray-700 hover:underline">
+          <a href="/" className="text-gray-700 hover:underline">
           Tableware
           </a>
-          <a href="#" className="text-gray-700 hover:underline">
+          <a href="/" className="text-gray-700 hover:underline">
           Cutlery
           </a>
         </div>
@@ -64,25 +64,25 @@ const Header: React.FC = () => {
           </SheetTrigger>
           <SheetContent>
           <nav className="flex flex-col gap-4 list-none">
-          <a href="#" className="text-gray-700 hover:underline">
+          <a href="/" className="text-gray-700 hover:underline">
           Plant pots
           </a>
-          <a href="#" className="text-gray-700 hover:underline">
+          <a href="/" className="text-gray-700 hover:underline">
           Ceramics
           </a> 
-          <a href="#" className="text-gray-700 hover:underline">
+          <a href="/" className="text-gray-700 hover:underline">
           Tables
           </a> 
-          <a href="#" className="text-gray-700 hover:underline">
+          <a href="/" className="text-gray-700 hover:underline">
           Chairs
           </a>
-          <a href="#" className="text-gray-700 hover:underline">
+          <a href="/" className="text-gray-700 hover:underline">
           Crockery
           </a>
-          <a href="#" className="text-gray-700 hover:underline">
+          <a href="/" className="text-gray-700 hover:underline">
           Tableware
           </a>
-          <a href="#" className="text-gray-700 hover:underline">
+          <a href="/" className="text-gray-700 hover:underline">
           Cutlery
           </a>
         </nav>

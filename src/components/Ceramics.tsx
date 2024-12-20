@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import { Button } from './ui/button'
 
 const Ceramics = () => {
   return (
@@ -36,7 +37,7 @@ const Ceramics = () => {
                 className="w-full h-[80%] object-cover transition-transform duration-300 ease-in-out hover:scale-105 hover:translate-y-1"
               />
               <div className="mt-4 text-[#2A254B]">
-                <p className="py-2">Rustic Vaseset</p>
+                <p className="py-2">Rustic Vase set</p>
                 <p>$155</p>
               </div>
             </div>
@@ -74,9 +75,9 @@ const Ceramics = () => {
 
           {/* View Collection Button */}
           <div className="my-10 flex justify-center items-center">
-            <button className="bg-[#F9F9F9] py-4 px-6 rounded-[5px] text-[#2A254B]">
+            <Button variant='secondary' className="w-full md:w-auto h-[56Hug] gap-y-[10px] text-sm md:text-base px-6 py-3 text-[#2A254B] hover:bg-neutral-300">
               View collection
-            </button>
+            </Button>
           </div>
         </div>
       </section>

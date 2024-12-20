@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { useRouter } from 'next/navigation';
+import { Button } from './ui/button';
 
 const Product = () => {
   const router = useRouter();
@@ -68,9 +69,9 @@ const Product = () => {
 
           {/* View Collection Button */}
           <div className='my-10 flex justify-center items-center'>
-            <button className='bg-[#F9F9F9] py-4 px-6 rounded-[5px] text-[#2A254B]' onClick={handleNavigation}>
+            <Button variant="secondary" className='w-full md:w-auto h-[56Hug] py-4 px-6 rounded-[5px] text-[#2A254B] hover:bg-neutral-300' onClick={handleNavigation}>
               View products
-            </button>
+            </Button>
           </div>
         </div>
       </section>

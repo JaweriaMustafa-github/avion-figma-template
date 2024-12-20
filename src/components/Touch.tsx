@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
+import { Button } from './ui/button';
+import Link from 'next/link';
 
 const Touch = () => {
   return (
@@ -23,9 +25,11 @@ const Touch = () => {
                 </h1>
               </div>
               <div className="my-10">
-                <button className="bg-[#F9F9F9] py-4 px-4 rounded-[5px] text-[#2A254B]">
+                <Link href="/contact">
+                <Button variant="secondary" className="py-4 px-4 rounded-[5px] text-[#2A254B] hover:bg-neutral-300">
                   Get in touch
-                </button>
+                </Button>
+                </Link>
               </div>
             </div>
 
