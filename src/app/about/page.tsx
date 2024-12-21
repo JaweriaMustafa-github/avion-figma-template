@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { Button } from "@/components/ui/button"
 import Link from 'next/link';
 import Main from '@/components/Main';
+import Benefit from '@/components/Benefit';
 
 const page = () => {
   return (
@@ -62,6 +63,7 @@ const page = () => {
     </div>
     </div>
     <Main/>
+    <Benefit/>
     </div>
   );
 };
