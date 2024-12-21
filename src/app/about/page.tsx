@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Button } from "@/components/ui/button"
 import Link from 'next/link';
+import Main from '@/components/Main';
 
 const page = () => {
   return (
@@ -60,6 +61,7 @@ const page = () => {
       </Link>
     </div>
     </div>
+    <Main/>
     </div>
   );
 };
