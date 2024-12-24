@@ -1,10 +1,12 @@
-
+'use client'
 import Benefit from '@/components/Benefit';
 import Main from '@/components/Main';
 import Image from 'next/image';
 import React from 'react';
+import { useState , useEffect} from 'react'
 
 const ProductListing = () => {
+  const [count,setCount] = useState(0)
   return (
     <>
       <section>
@@ -59,12 +61,14 @@ const ProductListing = () => {
                       <p>50cm</p>
                     </div>
                   </div>
-                  <div className="flex flex-wrap justify-between items-center mt-8">
+                  <div className="flex justify-between items-center mt-8">
                     <div className="flex items-center gap-4">
                       <h1>Amount:</h1>
-                      <button className="flex gap-4 bg-[#F5F5F5] rounded-md px-4 py-2">
-                        <span>+</span> 1 <span>-</span>
-                      </button>
+                      <div className='py-8 flex items-center justify-center gap-6'>
+                      <button className="flex gap-4 bg-[#F5F5F5] rounded-md px-4 py-2" onClick={()=>setCount(count-1)}>-</button>
+                      {count}
+                      <button className="flex gap-4 bg-[#F5F5F5] rounded-md px-4 py-2" onClick={()=>setCount(count+1)}>+</button>
+                      </div>
                     </div>
                     <button className="w-full md:w-[146px] h-[56px] bg-[#2A254B] text-white mt-4 md:mt-0">
                       Add to cart
