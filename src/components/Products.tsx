@@ -4,7 +4,7 @@ import React from 'react'
 import { useRouter } from 'next/navigation';
 import { Button } from './ui/button';
 
-const Product = () => {
+const Products = () => {
   const router = useRouter();
 
   const handleNavigation = () => {
@@ -79,4 +79,4 @@ const Product = () => {
   )
 }
 
-export default Product;
+export default Products;

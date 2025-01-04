@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const Hero: React.FC = () => {
   return (
@@ -25,7 +26,11 @@ const Hero: React.FC = () => {
           Shop the new Spring 2022 collection today
         </p>
         <p className="text-sm md:text-base text-[#5B5676] mb-6">With our new collection, view over 400 bespoke pieces from homeware through to furniture today</p>
-        <Button variant="secondary" className="w-full md:w-auto h-[56Hug] gap-y-[10px] text-sm md:text-base px-6 py-3 text-[#2A254B] mt-4 md:mt-44 hover:bg-neutral-300">View Collection</Button>
+        <Link href="/productlist">
+        <Button variant="secondary"
+        className="w-full md:w-auto h-[56Hug] gap-y-[10px] text-sm md:text-base px-6 py-3 text-[#2A254B] mt-4 md:mt-44 hover:bg-neutral-300">
+        View Collection</Button>
+        </Link>
       </div>
       </div>
       

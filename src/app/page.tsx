@@ -1,10 +1,10 @@
 import Hero from "@/components/Hero";
 import Main from "@/components/Main";
 import Ceramics from "@/components/Ceramics";
-import Product from "@/components/Product";
+import Products from "@/components/Products";
 import Benefit from "@/components/Benefit";
 import Touch from "@/components/Touch";
-import ProductListing from "./productlisting/page";
+import Idea from "@/components/Idea";
 
 
 
@@ -14,10 +14,10 @@ export default function Home() {
    <Hero/>
    <Main/>
    <Ceramics />
-   <Product />
+   <Products />
+   <Idea/>
    <Benefit />
    <Touch />
-<ProductListing/>
    </>
   );
 }
