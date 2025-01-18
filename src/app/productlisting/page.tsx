@@ -3,7 +3,7 @@ import Benefit from '@/components/Benefit';
 import Main from '@/components/Main';
 import Image from 'next/image';
 import React from 'react';
-import { useState , useEffect} from 'react'
+import { useState} from 'react'
 
 const ProductListing = () => {
   const [count,setCount] = useState(0)
