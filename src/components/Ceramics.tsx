@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { Button } from './ui/button'
+import Link from 'next/link'
 
 const Ceramics = () => {
   return (
@@ -75,9 +76,11 @@ const Ceramics = () => {
 
           {/* View Collection Button */}
           <div className="my-10 flex justify-center items-center">
-            <Button variant='secondary' className="w-full md:w-auto h-[56Hug] gap-y-[10px] text-sm md:text-base px-6 py-3 text-[#2A254B] hover:bg-neutral-300">
-              View collection
-            </Button>
+          <Link href="/productlist">
+        <Button variant="secondary"
+        className="w-full md:w-auto h-[56Hug] gap-y-[10px] text-sm md:text-base px-6 py-3 text-[#2A254B] mt-4 md:mt-44 hover:bg-neutral-300">
+        View Collection</Button>
+        </Link>
           </div>
         </div>
       </section>
