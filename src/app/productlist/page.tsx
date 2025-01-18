@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 const page = () => {
   return (
@@ -230,9 +231,13 @@ const page = () => {
 
           {/* View Collection Button */}
             <div className="my-10 flex justify-center items-center">
-            <Button variant='secondary' className="w-full md:w-auto h-[56Hug] gap-y-[10px] text-sm md:text-base px-6 py-3 text-[#2A254B] hover:bg-neutral-300">
-            View collection
-            </Button>
+            <div className="my-10">
+                <Link href="/contact">
+                <Button variant="secondary" className="py-4 px-4 rounded-[5px] text-[#2A254B] hover:bg-neutral-300">
+                  Get in touch
+                </Button>
+                </Link>
+              </div>
             </div>
 
         </div>
