@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { Button } from './ui/button'
+import Link from 'next/link'
 
 export default function Idea() {
   return (
@@ -12,9 +13,11 @@ export default function Idea() {
               <p className="text-base md:text-lg mb-6">
                 A global brand with local beginnings, our story began in a small studio in South London in early 2014.
               </p>
+              <Link href="/about">
               <Button variant="default" className="w-[170Hug] md:w-auto  bg-[#4E4D93] h-[56Hug] gap-y-[10px] text-sm md:text-base px-6 py-3 text-white mt-4 md:mt-44 hover:bg-neutral-300 hover:text-[#2A254B]">
-                View collection
+                About us
               </Button>
+              </Link>
             </div>
       
             {/* Image Section */}

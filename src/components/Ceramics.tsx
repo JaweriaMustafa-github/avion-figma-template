@@ -78,7 +78,7 @@ const Ceramics = () => {
           <div className="my-10 flex justify-center items-center">
           <Link href="/productlist">
         <Button variant="secondary"
-        className="w-full md:w-auto h-[56Hug] gap-y-[10px] text-sm md:text-base px-6 py-3 text-[#2A254B] mt-4 md:mt-44 hover:bg-neutral-300">
+        className="w-full md:w-auto h-[56Hug] gap-y-[10px] text-sm md:text-base px-6 py-3 text-[#2A254B] md:mt-44 hover:bg-neutral-300">
         View Collection</Button>
         </Link>
           </div>
